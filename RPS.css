@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    text-align: center;
+    background-color: bisque;
+}
+.head{
+    background-color:#030637 ;
+    color:white;
+    height: 60px;
+    padding-top:20px;
+}
+.buttons button{
+ height: 25vmin;
+ width: 25vmin;
+ border-radius: 50%;
+ border:1px solid #3C0753;
+ }
+.buttons button:hover{
+    border: none;
+    box-shadow: 0 0 2rem rgba(0,0,0,2);
+    cursor: pointer;
+ }
+.buttons{
+    height: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:7vmin;
+}
+.buttons img{
+    position: absolute;
+    left:0;
+    height: 25vmin;
+}
+.msg{
+    font-size: 25px;
+    background-color:#3C0753 ;
+    height: inherit;
+    color:white;
+    width: 80vmin;
+    padding-top: 3vmin;
+    margin-top: 20vmin;
+    border-radius: 9px;
+}
+.msg-container{
+    height: 7vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.score span{
+  font-size: 5vmin;
+  margin-left: 10vmin;
+}
+#rock{
+    background-image: url(rock.jpg);
+    background-size: cover;
+    
+}
+#paper{
+    background-image: url(paper.jpg);
+    background-size: cover;
+}
+#scissor{
+    background-image: url(scissor.png);
+    background-size: cover;
+}
+.hide{
+    display:none;
+}
+.comp{
+    height: 30vmin;
+    width: 30vmin;
+}
